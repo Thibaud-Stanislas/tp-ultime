@@ -1,1 +1,17 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "Allura";
+  src: url(../font/Allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/Roboto/Roboto-Light.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=index.css.map */

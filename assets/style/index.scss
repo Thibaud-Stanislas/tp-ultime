@@ -1,20 +1,8 @@
-/****sittings*****/
-@font-face{
-    font-family: "Allura";
-    src: url(../font/Allura/Allura-Regular.ttf);
-}
-@font-face{
-    font-family: "Poppins";
-    src: url(../font/Poppins/Poppins-Medium.ttf);
-}
-@font-face {
-    font-family: "Roboto";
-    src: url(../font/Roboto/Roboto-Light.ttf);
-}
-$font1: Allura, cursive;
-$font2: Poppins,serif;
-$font3: Roboto, serif;
-
-body{
-    background: red;
-}
+@import "./leyouts/sittings";
+@import "./leyouts/header";
+@import "./leyouts/section1";
+@import "./leyouts/section2";
+@import "./leyouts/section3";
+@import "./leyouts/section4";
+@import "./leyouts/section5";
+@import "./leyouts/footer";
