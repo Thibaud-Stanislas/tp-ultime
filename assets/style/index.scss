@@ -1,0 +1,20 @@
+/****sittings*****/
+@font-face{
+    font-family: "Allura";
+    src: url(../font/Allura/Allura-Regular.ttf);
+}
+@font-face{
+    font-family: "Poppins";
+    src: url(../font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto/Roboto-Light.ttf);
+}
+$font1: Allura, cursive;
+$font2: Poppins,serif;
+$font3: Roboto, serif;
+
+body{
+    background: red;
+}
