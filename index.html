@@ -61,7 +61,7 @@
 
 
         <section id="section2">
-            <div id="top">
+            <div id="sec2-top">
                 <h2>Discover</h2>
                 <img src="./assets/img/ic-plate-big.png" alt="logo cuillère, fourchette">
                 <ul>
@@ -72,7 +72,7 @@
                     <li><a href="#">Other</a></li>
                 </ul>
             </div>
-            <div id="bottom">
+            <div id="sec2-bottom">
                 <div id="sec2-left">
                     <div class="menu">
                         <img src="./assets/img/dish-item-01.jpg" alt="plat">
@@ -162,26 +162,120 @@
                     <img src="./assets/img/ic-plate-big.png" alt="logo cuillère, fourchette">
                 </div>
                 <div id="right-content">
-                    <label for="tentacles"></label>
-                    <input type="number" id="tentacles" name="tentacles" min="1" max="5">
-                    <label for="start"></label>
+                    <select name="" id="people">
+                        <option value="">People</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
                     <input type="date" id="start" name="trip-start" value="2020-07-15" min="15-07-2020">
-                    <label for="appt"></label>
-                    <input type="time" id="appt" name="appt" min="07:00" max="22:00" required>
-                    <label for="nam"></label>
-                    <input type="text" id="nam" name="nom" value="Name">
-                    <label for="phone"></label>
-                    <input type="tel" id="phone" name="phone" value="Phone">
-                    <label for="email"></label>
-                    <input type="email" id="email" name="mail" value="Email">
+                    <input type="time" id="appt" name="appt" min="07:00" max="21:00">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone">
+                    <input type="email" placeholder="Email">
                     <input type="submit" value="BOOK NOW">
-
-
                 </div>
-
             </div>
         </section>
+
+        <section id="section4">
+            <div id="sec4-top">
+                <span>Upcoming</span>
+                <h2>OUR EVENT</h2>
+                <img src="./assets/img/ic-plate-big.png" alt="logo cuillère, fourchette">
+            </div>
+            <div id="sec4-bottom">
+                <div id="sec4-left">
+                    <div class="buy-tickets">
+                        <div class="buy-tickets-left">
+                            <img src="" alt="">
+                            <div class="date">
+                                <span class="number">08</span>
+                                <span class="month">July</span>
+                            </div>
+                        </div>
+                        <div class="buy-tickets-right">
+                            <h3>Night Inspirescu Party</h3>
+                            <span><i class="fa-sharp fa-solid fa-location-dot"></i> Restaurant Resto <i
+                                    class="fa-regular fa-clock"></i> 10:00pm - 6:00am</span>
+                            <button>BUY TICKETS</button>
+                        </div>
+                        <div class="buy-tickets">
+                            <div class="buy-tickets-left">
+                                <img src="" alt="">
+                                <div class="date">
+                                    <span class="number">08</span>
+                                    <span class="month">July</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="buy-tickets-right">
+                        <h3>DJ RobagRhume</h3>
+                        <span><i class="fa-sharp fa-solid fa-location-dot"></i> Restaurant Resto <i
+                                class="fa-regular fa-clock"></i> 10:00pm - 6:00am</span>
+                        <button>BUY TICKETS</button>
+                    </div>
+                </div>
+                <div id="sec4-right">
+                    <div id="center">
+                        <div id="center-top">
+                            <div class="date">
+                                <span class="number">08</span>
+                                <span class="month">July</span>
+                            </div>
+                            <div id="center-bottom">
+                                <h3>Thousands celebrities at Johnnie Night</h3>
+                                <span id="margin"><i class="fa-sharp fa-solid fa-location-dot"></i> Restaurant Resto <i
+                                        class="fa-regular fa-clock"></i> 10:00pm - 6:00am</span>
+                                <button>BUY TICKETS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5">
+            <img src="./assets/img/avatar-02.jpg" alt="chef cuisinier">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, fugit velit! Nihil perferendis
+                perspiciatis, inventore porro quo quidem consequuntur, dolor eligendi a labore rem commodi recusandae
+                deserunt quae sit aspernatur necessitatibus vitae nesciunt nemo pariatur sequi? Quod in aliquam porro!
+            </p>
+            <h3>Russel Stephens</h3>
+            <span>CEO-HeadPassion</span>
+        </section>
     </main>
+
+    <footer>
+        <div id="footer-left">
+            <h3>Resto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga, cum deleniti nobis esse quidem
+                commodi reprehenderit, placeat recusandae voluptatum doloribus, ullam quas earum delectus.</p>
+        </div>
+        <div id="footer-right">
+            <div id="newsletter">
+                <span>NEWSLETTER</span>
+                <label for="email"></label>
+                <input type="email" id="email" name="mail" value="Your email address">
+            </div>
+            <div id="réseau">
+                <span>FOLLOW US:</span>
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-pinterest"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
