@@ -108,4 +108,85 @@ header #header-content div p {
   color: rgb(166, 114, 69);
   font-size: 48px;
   font-weight: 500;
+}
+#section1 #sec1-right h3 {
+  font-family: Poppins, serif;
+  font-size: 30px;
+  margin-top: -25px;
+}
+#section1 #sec1-right .logo {
+  margin: 35px 0;
+}
+#section1 #sec1-right p {
+  font-family: Roboto, serif;
+  text-align: center;
+  margin: 0 12px;
+  font-size: 21px;
+}
+#section1 #sec1-right .chef {
+  margin: 35px 0;
+  border-radius: 53px;
+  width: 77px;
+}
+#section1 #sec1-right #deux {
+  font-size: 25px;
+  font-weight: 600;
+}
+#section1 #sec1-right span {
+  margin-bottom: 50px;
+  font-family: Roboto, serif;
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+  font-weight: 600;
+}
+#section1 #sec1-left {
+  background: url(../img/store-01.jpg) center/cover;
+}
+
+#section2 {
+  background: url(../img/bg-menu-01.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 120vh;
+}
+#section2 #sec2-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20vh;
+}
+#section2 #sec2-top h2 {
+  color: rgb(166, 114, 69);
+  font-family: Allura, cursive;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: 55px;
+}
+#section2 #sec2-top .logo {
+  margin: 30px 0;
+}
+#section2 #sec2-top ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  font-family: Roboto, serif;
+  font-size: 19px;
+}
+#section2 #sec2-top ul a {
+  border-bottom: solid 1px #eee;
+  padding-bottom: 8px;
+}
+#section2 #sec2-bottom {
+  width: 59%;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px auto;
+  background: #eee;
+  height: 77vh;
+}
+#section2 #sec2-bottom #sec2-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }/*# sourceMappingURL=index.css.map */
