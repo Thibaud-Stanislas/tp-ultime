@@ -43,11 +43,43 @@
             margin: 70px auto;
             background: $white;
             height: 77vh;
+            border-top: solid 5px $color1;
 
             #sec2-left {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+            }
+
+            .menu{
+                display: grid;
+                grid-template-columns: 27% 65% 8% ;
+                align-items: center;
+                padding: 35px 0;
+                border-bottom: dashed 1px $grey;
+                width: 113%;
+               
+                
+                img{
+                    border-radius: 50px;
+                }
+                
+                    padding-left: 10px;
+
+                    h3{
+                        font-family: $font3;
+                        font-size: 17px;
+                        font-weight: 500s;
+                    }
+                    p{
+                        font-family: $font3;
+                        font-size: 15px;
+                    }
+                    span{
+                        color: $color1;
+                        font-size: 20px;
+                    }
+                
             }
         }   
     

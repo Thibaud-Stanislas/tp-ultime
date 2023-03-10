@@ -184,9 +184,35 @@ header #header-content div p {
   margin: 70px auto;
   background: #eee;
   height: 77vh;
+  border-top: solid 5px rgb(166, 114, 69);
 }
 #section2 #sec2-bottom #sec2-left {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+#section2 #sec2-bottom .menu {
+  display: grid;
+  grid-template-columns: 27% 65% 8%;
+  align-items: center;
+  padding: 35px 0;
+  border-bottom: dashed 1px rgb(182, 182, 182);
+  width: 113%;
+  padding-left: 10px;
+}
+#section2 #sec2-bottom .menu img {
+  border-radius: 50px;
+}
+#section2 #sec2-bottom .menu h3 {
+  font-family: Roboto, serif;
+  font-size: 17px;
+  font-weight: 500s;
+}
+#section2 #sec2-bottom .menu p {
+  font-family: Roboto, serif;
+  font-size: 15px;
+}
+#section2 #sec2-bottom .menu span {
+  color: rgb(166, 114, 69);
+  font-size: 20px;
 }/*# sourceMappingURL=index.css.map */
