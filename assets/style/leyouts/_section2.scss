@@ -50,12 +50,17 @@
                 flex-direction: column;
                 justify-content: space-around;
             }
+            #sec2-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
 
             .menu{
                 display: grid;
                 grid-template-columns: 27% 65% 8% ;
                 align-items: center;
-                padding: 35px 0;
+                padding: 20px 0;
                 border-bottom: dashed 1px $grey;
                 width: 113%;
                
